@@ -1,0 +1,11 @@
+@import "variables";
+
+button {
+  color: $neutral-color;
+  cursor: pointer;
+  padding: 10px 30px;
+  background-color: $highlight-color;
+  border-radius: 0;
+  border: none;
+  box-shadow: 2px 2px 0 $green;
+}

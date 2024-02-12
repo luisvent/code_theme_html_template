@@ -1,0 +1,133 @@
+@import "variables";
+
+/*-------- json --------*/
+
+.json-container {
+  margin: 20px;
+  padding: 10px;
+  color: $primary-color;
+  font-size: 18px;
+  position: relative;
+
+  .bracket {
+    font-weight: bold;
+    font-size: 32px;
+    color: #b485d0;
+
+    &.open-bracket {
+
+      &:after {
+        content: '{';
+      }
+
+    }
+
+    &.close-bracket {
+
+      &:after {
+        content: '}';
+
+      }
+
+    }
+  }
+
+  .json-container-footer {
+    display: flex;
+    max-height: 50px;
+    align-items: end;
+    justify-content: end;
+    padding: 0 70px;
+
+    .read-more {
+
+      &:before {
+        cursor: pointer;
+      }
+    }
+  }
+
+
+
+  .properties-container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+
+    .pair-container {
+      display: flex;
+      column-gap: 10px;
+
+      .keys-container {
+        flex: 0 0 200px;
+        text-align: right;
+        line-height: 1.8;
+        color: $accent-color;
+      }
+
+      .values-container {
+        text-align: left;
+        flex: 0 0 750px;
+        line-height: 1.8;
+
+        .field {
+          input,textarea {
+            border: 3px solid $highlight-color;
+            background-color: $neutral-color;
+            color: $primary-color;
+            width: 550px;
+          }
+
+          input {
+            height: 30px;
+
+          }
+
+        }
+
+        .project-img {
+          position: relative;
+          height: 200px;
+
+          img {
+            object-fit: cover;
+            height: 200px;
+            width: 500px;
+            position: absolute;
+
+            &.top {
+              top: -4px;
+              //border: 1px solid black;
+              box-shadow: rgba(180, 133, 208, 0.5) 5px 5px, rgba(180, 133, 208, 0.2) 10px 10px, rgba(180, 133, 208, 0.05) 15px 15px;
+            }
+
+          }
+
+
+        }
+
+        .multiple-images {
+          display: flex;
+          flex-wrap: wrap;
+          column-gap: 30px;
+          row-gap: 30px;
+
+          img {
+            height: 200px;
+            width: 200px;
+            object-fit: cover;
+            box-shadow: 5px 5px 0 $green;
+          }
+        }
+      }
+    }
+  }
+
+  &.compact {
+    .properties-container {
+      row-gap: 10px;
+    }
+  }
+}
+
+/*-------- json --------*/

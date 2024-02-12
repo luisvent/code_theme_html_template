@@ -1,0 +1,309 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: #151515;
+  font-family: "Source Code Pro", monospace;
+  /* width */
+  /* Track */
+  /* Handle */
+  /* Handle on hover */
+}
+body ::-webkit-scrollbar, html ::-webkit-scrollbar {
+  width: 5px;
+}
+body ::-webkit-scrollbar-track, html ::-webkit-scrollbar-track {
+  background: #5e5f61;
+}
+body ::-webkit-scrollbar-thumb, html ::-webkit-scrollbar-thumb {
+  background: #b485d0;
+}
+body ::-webkit-scrollbar-thumb:hover, html ::-webkit-scrollbar-thumb:hover {
+  background: #3c9988;
+}
+
+/*-------- json --------*/
+.json-container {
+  margin: 20px;
+  padding: 10px;
+  color: #B6BBC4;
+  font-size: 18px;
+  position: relative;
+}
+.json-container .bracket {
+  font-weight: bold;
+  font-size: 32px;
+  color: #b485d0;
+}
+.json-container .bracket.open-bracket:after {
+  content: "{";
+}
+.json-container .bracket.close-bracket:after {
+  content: "}";
+}
+.json-container .json-container-footer {
+  display: flex;
+  max-height: 50px;
+  align-items: end;
+  justify-content: end;
+  padding: 0 70px;
+}
+.json-container .json-container-footer .read-more:before {
+  cursor: pointer;
+}
+.json-container .properties-container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+}
+.json-container .properties-container .pair-container {
+  display: flex;
+  column-gap: 10px;
+}
+.json-container .properties-container .pair-container .keys-container {
+  flex: 0 0 200px;
+  text-align: right;
+  line-height: 1.8;
+  color: #d18a08;
+}
+.json-container .properties-container .pair-container .values-container {
+  text-align: left;
+  flex: 0 0 750px;
+  line-height: 1.8;
+}
+.json-container .properties-container .pair-container .values-container .field input, .json-container .properties-container .pair-container .values-container .field textarea {
+  border: 3px solid #b485d0;
+  background-color: #2a2929;
+  color: #B6BBC4;
+  width: 550px;
+}
+.json-container .properties-container .pair-container .values-container .field input {
+  height: 30px;
+}
+.json-container .properties-container .pair-container .values-container .project-img {
+  position: relative;
+  height: 200px;
+}
+.json-container .properties-container .pair-container .values-container .project-img img {
+  object-fit: cover;
+  height: 200px;
+  width: 500px;
+  position: absolute;
+}
+.json-container .properties-container .pair-container .values-container .project-img img.top {
+  top: -4px;
+  box-shadow: rgba(180, 133, 208, 0.5) 5px 5px, rgba(180, 133, 208, 0.2) 10px 10px, rgba(180, 133, 208, 0.05) 15px 15px;
+}
+.json-container .properties-container .pair-container .values-container .multiple-images {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 30px;
+  row-gap: 30px;
+}
+.json-container .properties-container .pair-container .values-container .multiple-images img {
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+  box-shadow: 5px 5px 0 #3c9988;
+}
+.json-container.compact .properties-container {
+  row-gap: 10px;
+}
+
+/*-------- json --------*/
+/*
+https://codepen.io/Jeromche/pen/KKQrGgP
+Blurred animated gradients
+Wil van der Tuin
+*/
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.gradient {
+  --size: 250px;
+  --speed: 15s;
+  --easing: cubic-bezier(0.8, 0.2, 0.2, 0.8);
+  width: 300px;
+  height: var(--size);
+  filter: blur(calc(var(--size) / 5));
+  background-image: linear-gradient(hsla(158, 82%, 57%, 0.85), hsl(252, 82%, 57%));
+  animation: rotate var(--speed) var(--easing) alternate infinite;
+  border-radius: 30% 70% 70% 30%/30% 30% 70% 70%;
+}
+
+@media (min-width: 720px) {
+  .gradient {
+    --size: 500px;
+  }
+}
+body {
+  background-color: #222;
+  position: absolute;
+  inset: 0;
+  display: flex;
+  place-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+/* This is just to transition when you change the viewport size. */
+* {
+  transition: all 0.25s ease-out;
+}
+
+.footer {
+  height: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  column-gap: 10px;
+  align-items: center;
+  color: #B6BBC4;
+  font-size: 14px;
+}
+.footer span {
+  margin-right: 100px;
+}
+
+.typewriter {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: 0.15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  letter-spacing: 0.15em; /* Adjust as needed */
+  animation: typing 2s steps(40, end), blink-caret 0.75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 50%;
+  }
+}
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: #264d79;
+  }
+}
+.text-gradient {
+  width: max-content;
+  background-image: linear-gradient(45deg, #b485d0, #264d79, #3c9988);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 100%;
+  background-repeat: repeat;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+.text-gradient.two-tone {
+  background-image: linear-gradient(45deg, #b485d0, #3c9988);
+}
+
+.right-sidebar {
+  flex: 1;
+  border-left: 1px solid #5e5f61;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 60px;
+  justify-content: center;
+}
+.right-sidebar .section {
+  color: white;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  height: 70px;
+  padding: 0 40px;
+  column-gap: 20px;
+}
+.right-sidebar .section .section-icon {
+  font-size: 48px;
+}
+.right-sidebar .section .section-title {
+  font-size: 24px;
+}
+.right-sidebar .section .section-title a {
+  color: white;
+  text-decoration: none;
+}
+.right-sidebar .section.selected {
+  background-color: #302c32;
+}
+.right-sidebar .section.selected .section-title {
+  font-weight: bold;
+}
+.right-sidebar .section.selected .section-title a {
+  color: #b485d0;
+}
+.right-sidebar .section:hover {
+  padding: 0 20px;
+}
+.right-sidebar .section:hover .section-icon {
+  filter: drop-shadow(2px 2px 0px #3c9988);
+}
+.right-sidebar .section:hover a {
+  text-shadow: 2px 2px 0 #3c9988;
+}
+
+button {
+  color: #2a2929;
+  cursor: pointer;
+  padding: 10px 30px;
+  background-color: #b485d0;
+  border-radius: 0;
+  border: none;
+  box-shadow: 2px 2px 0 #3c9988;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 20px;
+  height: 800px;
+  overflow: auto;
+}
+
+.list-separator {
+  color: #5e5f61;
+}
+.list-separator:before {
+  content: "/* ---------------------------- separator ---------------------------- */";
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.container .center-content {
+  display: flex;
+}
+.container .center-content .content {
+  flex: 3;
+}
+.container .title {
+  font-weight: bold;
+  font-size: 72px;
+  margin-bottom: 50px;
+}
+.container .json-container {
+  margin-left: 50px;
+}
+
+/*# sourceMappingURL=styles.css.map */

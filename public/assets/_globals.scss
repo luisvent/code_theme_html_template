@@ -1,0 +1,29 @@
+@import "variables";
+
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: #151515;
+  font-family: 'Source Code Pro', monospace;
+
+  /* width */
+  ::-webkit-scrollbar {
+    width: 5px;
+  }
+
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: $separator-color;
+  }
+
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #b485d0;
+  }
+
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: $green;
+  }
+}

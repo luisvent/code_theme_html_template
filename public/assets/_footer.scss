@@ -1,0 +1,16 @@
+@import "variables";
+
+.footer {
+  height: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  column-gap: 10px;
+  align-items: center;
+  color: $primary-color;
+  font-size: 14px;
+
+  span{
+    margin-right: 100px;
+  }
+}

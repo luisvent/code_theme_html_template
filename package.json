@@ -1,0 +1,16 @@
+{
+  "name": "code_theme_html_template",
+  "version": "1.0.0",
+  "description": "Code theme template",
+  "main": "index.js",
+  "scripts": {
+    "serve": "http-server ./public -c-1",
+    "compile:sass": "sass ./public/assets/main.scss ./public/assets/styles.css -w"
+  },
+  "author": "Luis Ventura",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "sass": "^1.70.0"
+  }
+}

@@ -1,0 +1,58 @@
+@import "variables";
+@import "globals";
+@import "json";
+@import "bg_animation";
+@import "footer";
+@import "typewriter";
+@import "text_gradient";
+@import "right_sidebar";
+@import "button";
+
+
+.list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 20px;
+  height: 800px;
+  overflow: auto;
+}
+
+.list-separator {
+  color: #5e5f61;
+
+  &:before {
+    content: '/* ---------------------------- separator ---------------------------- */';
+  }
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  .top-bar {
+  }
+
+  .center-content {
+    display: flex;
+
+    .content {
+      flex: 3;
+    }
+  }
+
+  .title {
+    font-weight: bold;
+    font-size: 72px;
+    margin-bottom: 50px;
+  }
+
+  .json-container {
+    margin-left: 50px;
+  }
+
+}
+
