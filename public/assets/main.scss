@@ -1,4 +1,6 @@
 @import "variables";
+@import "link";
+@import "particle_animation";
 @import "globals";
 @import "json";
 @import "bg_animation";
@@ -48,6 +50,7 @@
     font-weight: bold;
     font-size: 72px;
     margin-bottom: 50px;
+    position: relative;
   }
 
   .json-container {

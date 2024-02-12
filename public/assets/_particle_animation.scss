@@ -1,0 +1,70 @@
+@import "variables";
+
+$colors: #ffe74c, #ff5964, #ffffff, #6bf178, #35a7ff;
+
+.code-particle {
+  z-index: 0;
+  border-radius: 12px;
+  height: 20px;
+  position: absolute;
+  text-align: center;
+  opacity: 0;
+  animation: moveRight 25s linear infinite, fade 25s linear infinite;
+  color: #1e1d1d;
+
+  @for $i from 1 through 20 {
+    &:nth-child(#{$i}) {
+      $delay: random(9999) + 0ms;
+      width: calc(random(90) + 50) + px;
+      background-color: rgb(42, 41, 41);
+      //background-color: red;
+      //background-color: lighten(nth($colors, random(length($colors))), 20%);
+      left: calc(50% - #{random(300) + 20px});
+      animation-delay: $delay;
+      // opacity: random(50) / 100 + 0.5;
+
+      &.top {
+
+      top: calc(20% - #{random(400) - 5px});
+      }
+
+      &.bottom {
+
+      top: calc(100% - #{random(300) - 5px});
+      }
+
+    }
+  }
+}
+
+
+
+@keyframes moveRight {
+  0% {
+    left: 10vw;
+  }
+  50% {
+    left: 50vw;
+  }
+  100% {
+    left: 100vw;
+  }
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0.1;
+  }
+  20% {
+    opacity: (random(10) * 0.2);
+  }
+  50% {
+    opacity: 0;
+  }
+  80% {
+    opacity: (random(10) * 0.1);
+  }
+  100% {
+    opacity: 0.1;
+  }
+}

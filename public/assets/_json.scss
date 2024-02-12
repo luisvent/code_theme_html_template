@@ -47,8 +47,6 @@
     }
   }
 
-
-
   .properties-container {
     display: flex;
     flex-direction: column;
@@ -69,6 +67,9 @@
         text-align: left;
         flex: 0 0 750px;
         line-height: 1.8;
+        //max-height: 400px;
+        //overflow: hidden;
+        animation: fade 2s linear;
 
         .field {
           input,textarea {
@@ -128,6 +129,34 @@
       row-gap: 10px;
     }
   }
+
+  &:hover {
+    .bracket {
+      text-shadow: $highlight-color 1px 0 10px;
+    }
+
+    .keys-container {
+      text-shadow: $accent-color 1px 0 10px;
+    }
+  }
 }
 
 /*-------- json --------*/
+
+@keyframes showRight {
+  0% {
+    flex: 0 0 0;
+  }
+  100% {
+    flex: 0 0 750px;
+  }
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

@@ -1,0 +1,7 @@
+@import "variables";
+
+a:hover {
+  -webkit-background-clip: text;
+  background-image: linear-gradient(45deg, $highlight-color, $highlight-color) !important;
+  text-shadow: white 1px 0 8px;
+}

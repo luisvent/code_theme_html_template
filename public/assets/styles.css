@@ -1,3 +1,288 @@
+a:hover {
+  -webkit-background-clip: text;
+  background-image: linear-gradient(45deg, #b485d0, #b485d0) !important;
+  text-shadow: white 1px 0 8px;
+}
+
+.code-particle {
+  z-index: 0;
+  border-radius: 12px;
+  height: 20px;
+  position: absolute;
+  text-align: center;
+  opacity: 0;
+  animation: moveRight 25s linear infinite, fade 25s linear infinite;
+  color: #1e1d1d;
+}
+.code-particle:nth-child(1) {
+  width: 115px;
+  background-color: rgb(42, 41, 41);
+  left: calc(50% - 143px);
+  animation-delay: 9397ms;
+}
+.code-particle:nth-child(1).top {
+  top: calc(20% - 82px);
+}
+.code-particle:nth-child(1).bottom {
+  top: calc(100% - 255px);
+}
+.code-particle:nth-child(2) {
+  width: 120px;
+  background-color: rgb(42, 41, 41);
+  left: calc(50% - 186px);
+  animation-delay: 6797ms;
+}
+.code-particle:nth-child(2).top {
+  top: calc(20% - 2px);
+}
+.code-particle:nth-child(2).bottom {
+  top: calc(100% - 289px);
+}
+.code-particle:nth-child(3) {
+  width: 70px;
+  background-color: rgb(42, 41, 41);
+  left: calc(50% - 95px);
+  animation-delay: 9709ms;
+}
+.code-particle:nth-child(3).top {
+  top: calc(20% - 46px);
+}
+.code-particle:nth-child(3).bottom {
+  top: calc(100% - 97px);
+}
+.code-particle:nth-child(4) {
+  width: 65px;
+  background-color: rgb(42, 41, 41);
+  left: calc(50% - 258px);
+  animation-delay: 7855ms;
+}
+.code-particle:nth-child(4).top {
+  top: calc(20% - 22px);
+}
+.code-particle:nth-child(4).bottom {
+  top: calc(100% - 277px);
+}
+.code-particle:nth-child(5) {
+  width: 135px;
+  background-color: rgb(42, 41, 41);
+  left: calc(50% - 290px);
+  animation-delay: 5526ms;
+}
+.code-particle:nth-child(5).top {
+  top: calc(20% - 118px);
+}
+.code-particle:nth-child(5).bottom {
+  top: calc(100% - 121px);
+}
+.code-particle:nth-child(6) {
+  width: 64px;
+  background-color: rgb(42, 41, 41);
+  left: calc(50% - 60px);
+  animation-delay: 4357ms;
+}
+.code-particle:nth-child(6).top {
+  top: calc(20% - 319px);
+}
+.code-particle:nth-child(6).bottom {
+  top: calc(100% - 16px);
+}
+.code-particle:nth-child(7) {
+  width: 135px;
+  background-color: rgb(42, 41, 41);
+  left: calc(50% - 129px);
+  animation-delay: 475ms;
+}
+.code-particle:nth-child(7).top {
+  top: calc(20% - 92px);
+}
+.code-particle:nth-child(7).bottom {
+  top: calc(100% - 172px);
+}
+.code-particle:nth-child(8) {
+  width: 58px;
+  background-color: rgb(42, 41, 41);
+  left: calc(50% - 120px);
+  animation-delay: 9734ms;
+}
+.code-particle:nth-child(8).top {
+  top: calc(20% - 91px);
+}
+.code-particle:nth-child(8).bottom {
+  top: calc(100% - 249px);
+}
+.code-particle:nth-child(9) {
+  width: 109px;
+  background-color: rgb(42, 41, 41);
+  left: calc(50% - 163px);
+  animation-delay: 8685ms;
+}
+.code-particle:nth-child(9).top {
+  top: calc(20% - 229px);
+}
+.code-particle:nth-child(9).bottom {
+  top: calc(100% - 21px);
+}
+.code-particle:nth-child(10) {
+  width: 84px;
+  background-color: rgb(42, 41, 41);
+  left: calc(50% - 90px);
+  animation-delay: 4412ms;
+}
+.code-particle:nth-child(10).top {
+  top: calc(20% - 329px);
+}
+.code-particle:nth-child(10).bottom {
+  top: calc(100% - 263px);
+}
+.code-particle:nth-child(11) {
+  width: 101px;
+  background-color: rgb(42, 41, 41);
+  left: calc(50% - 162px);
+  animation-delay: 6102ms;
+}
+.code-particle:nth-child(11).top {
+  top: calc(20% - 24px);
+}
+.code-particle:nth-child(11).bottom {
+  top: calc(100% - 121px);
+}
+.code-particle:nth-child(12) {
+  width: 96px;
+  background-color: rgb(42, 41, 41);
+  left: calc(50% - 88px);
+  animation-delay: 600ms;
+}
+.code-particle:nth-child(12).top {
+  top: calc(20% - 167px);
+}
+.code-particle:nth-child(12).bottom {
+  top: calc(100% - 221px);
+}
+.code-particle:nth-child(13) {
+  width: 135px;
+  background-color: rgb(42, 41, 41);
+  left: calc(50% - 135px);
+  animation-delay: 7020ms;
+}
+.code-particle:nth-child(13).top {
+  top: calc(20% - 237px);
+}
+.code-particle:nth-child(13).bottom {
+  top: calc(100% - 36px);
+}
+.code-particle:nth-child(14) {
+  width: 129px;
+  background-color: rgb(42, 41, 41);
+  left: calc(50% - 306px);
+  animation-delay: 8424ms;
+}
+.code-particle:nth-child(14).top {
+  top: calc(20% - 387px);
+}
+.code-particle:nth-child(14).bottom {
+  top: calc(100% - 42px);
+}
+.code-particle:nth-child(15) {
+  width: 119px;
+  background-color: rgb(42, 41, 41);
+  left: calc(50% - 301px);
+  animation-delay: 212ms;
+}
+.code-particle:nth-child(15).top {
+  top: calc(20% - 306px);
+}
+.code-particle:nth-child(15).bottom {
+  top: calc(100% - 72px);
+}
+.code-particle:nth-child(16) {
+  width: 131px;
+  background-color: rgb(42, 41, 41);
+  left: calc(50% - 173px);
+  animation-delay: 7148ms;
+}
+.code-particle:nth-child(16).top {
+  top: calc(20% - -4px);
+}
+.code-particle:nth-child(16).bottom {
+  top: calc(100% - 164px);
+}
+.code-particle:nth-child(17) {
+  width: 117px;
+  background-color: rgb(42, 41, 41);
+  left: calc(50% - 105px);
+  animation-delay: 4887ms;
+}
+.code-particle:nth-child(17).top {
+  top: calc(20% - 349px);
+}
+.code-particle:nth-child(17).bottom {
+  top: calc(100% - 113px);
+}
+.code-particle:nth-child(18) {
+  width: 58px;
+  background-color: rgb(42, 41, 41);
+  left: calc(50% - 168px);
+  animation-delay: 6481ms;
+}
+.code-particle:nth-child(18).top {
+  top: calc(20% - 335px);
+}
+.code-particle:nth-child(18).bottom {
+  top: calc(100% - 120px);
+}
+.code-particle:nth-child(19) {
+  width: 137px;
+  background-color: rgb(42, 41, 41);
+  left: calc(50% - 198px);
+  animation-delay: 293ms;
+}
+.code-particle:nth-child(19).top {
+  top: calc(20% - 262px);
+}
+.code-particle:nth-child(19).bottom {
+  top: calc(100% - 24px);
+}
+.code-particle:nth-child(20) {
+  width: 106px;
+  background-color: rgb(42, 41, 41);
+  left: calc(50% - 165px);
+  animation-delay: 4416ms;
+}
+.code-particle:nth-child(20).top {
+  top: calc(20% - 10px);
+}
+.code-particle:nth-child(20).bottom {
+  top: calc(100% - 285px);
+}
+
+@keyframes moveRight {
+  0% {
+    left: 10vw;
+  }
+  50% {
+    left: 50vw;
+  }
+  100% {
+    left: 100vw;
+  }
+}
+@keyframes fade {
+  0% {
+    opacity: 0.1;
+  }
+  20% {
+    opacity: 0.4;
+  }
+  50% {
+    opacity: 0;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.1;
+  }
+}
 body, html {
   margin: 0;
   padding: 0;
@@ -70,10 +355,11 @@ body ::-webkit-scrollbar-thumb:hover, html ::-webkit-scrollbar-thumb:hover {
   text-align: left;
   flex: 0 0 750px;
   line-height: 1.8;
+  animation: fade 2s linear;
 }
 .json-container .properties-container .pair-container .values-container .field input, .json-container .properties-container .pair-container .values-container .field textarea {
   border: 3px solid #b485d0;
-  background-color: #2a2929;
+  background-color: rgb(42, 41, 41);
   color: #B6BBC4;
   width: 550px;
 }
@@ -109,8 +395,30 @@ body ::-webkit-scrollbar-thumb:hover, html ::-webkit-scrollbar-thumb:hover {
 .json-container.compact .properties-container {
   row-gap: 10px;
 }
+.json-container:hover .bracket {
+  text-shadow: #b485d0 1px 0 10px;
+}
+.json-container:hover .keys-container {
+  text-shadow: #d18a08 1px 0 10px;
+}
 
 /*-------- json --------*/
+@keyframes showRight {
+  0% {
+    flex: 0 0 0;
+  }
+  100% {
+    flex: 0 0 750px;
+  }
+}
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 /*
 https://codepen.io/Jeromche/pen/KKQrGgP
 Blurred animated gradients
@@ -259,7 +567,7 @@ body {
 }
 
 button {
-  color: #2a2929;
+  color: rgb(42, 41, 41);
   cursor: pointer;
   padding: 10px 30px;
   background-color: #b485d0;
@@ -301,6 +609,7 @@ button {
   font-weight: bold;
   font-size: 72px;
   margin-bottom: 50px;
+  position: relative;
 }
 .container .json-container {
   margin-left: 50px;
