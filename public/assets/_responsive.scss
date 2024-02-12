@@ -108,6 +108,13 @@
     .pair-container {
       .values-container {
 
+        .field {
+          input,textarea {
+            max-width: 85% !important;
+          }
+
+        }
+
         .project-img {
           img {
             width: 400px !important;
