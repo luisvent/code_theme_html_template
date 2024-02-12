@@ -5,7 +5,9 @@ This HTML template is designed with a coding theme, for developers or tech enthu
 ### Preview
 
 
-<img src="public/assets/preview.png" alt="drawing" width="500"/>
+<img src="public/assets/preview.png" alt="drawing" width="700"/>
+
+[Live Demo](https://luisvent.com)
 
 ### Features
 
@@ -43,6 +45,8 @@ This HTML template is designed with a coding theme, for developers or tech enthu
 - BG Animation: Wil van der Tuin
 
 ### License
+
+### FREE TO USE WITH CREDITS
 
 Code HTML Template © 2024 by Luis Ventura is licensed under CC BY 4.0
 
