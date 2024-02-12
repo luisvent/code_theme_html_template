@@ -13,6 +13,7 @@ This HTML template is designed with a coding theme, for developers or tech enthu
 
 - Stylish coding theme design
 - Animated typewriter effect for the title
+- Responsive design for multiple devices
 - JSON-inspired layout for displaying information
 - Material design icons for section navigation
 - Gradient background and text effects for added visual appeal
