@@ -27,3 +27,20 @@ body, html {
     background: $green;
   }
 }
+
+h4 {
+  max-width: 900px;
+  margin-left: 60px;
+
+  text-transform: uppercase;
+  color: $green;
+
+  &::before {
+    content: '< ';
+  }
+
+  &::after {
+    content: ' />';
+  }
+
+}

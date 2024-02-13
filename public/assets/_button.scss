@@ -8,4 +8,9 @@ button {
   border-radius: 0;
   border: none;
   box-shadow: 2px 2px 0 $green;
+
+  &:hover {
+    padding: 10px 40px;
+    box-shadow: 6px 6px 0 $green;
+  }
 }

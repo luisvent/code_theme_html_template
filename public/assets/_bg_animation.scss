@@ -14,10 +14,11 @@ Wil van der Tuin
 }
 
 .gradient {
+  opacity: 0.8;
   position: absolute;
   left: 0;
   --size: 250px;
-  --speed: 15s;
+  --speed: 20s;
   --easing: cubic-bezier(0.8, 0.2, 0.2, 0.8);
 
   width: 300px;

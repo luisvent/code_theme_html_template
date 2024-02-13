@@ -21,5 +21,14 @@
       color: white;
       text-decoration: none;
     }
+
+    &.selected {
+      .tab-title {
+        a {
+          color: $highlight-color;
+        }
+        font-weight: bold;
+      }
+    }
   }
 }

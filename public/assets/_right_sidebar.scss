@@ -1,4 +1,5 @@
 @import "variables";
+@import "glitch";
 
 .right-sidebar {
   flex: 1;
@@ -11,12 +12,12 @@
   justify-content: center;
 
   .section {
-    color: white;
+    color: $primary_color;;
     cursor: pointer;
     display: flex;
     align-items: center;
     height: 70px;
-    padding: 0 40px;
+    padding: 0 80px;
     column-gap: 20px;
 
     .section-icon {
@@ -27,24 +28,48 @@
       font-size: 24px;
 
       a {
-        color: white;
+        color: $primary_color;
         text-decoration: none;
       }
     }
 
     &.selected {
-      background-color: #302c32;
+      padding: 0 40px;
+      //background-color: #302c32;
+
+      text-transform: uppercase;
+      color: $highlight-color;
+        text-shadow: $highlight-color 1px 0 10px;
 
       .section-title {
         font-weight: bold;
+
+        &::before {
+          color: $highlight-color;
+          font-weight: bold;
+          content: '[';
+          font-size: 38px;
+          line-height: 38px;
+        }
+
+        &::after {
+          line-height: 38px;
+          font-size: 38px;
+          color: $highlight-color;
+          font-weight: bold;
+          content: ']';
+        }
+
+        //font-weight: bold;
+
         a {
-        color: $highlight-color;
+          //color: $highlight-color;
         }
       }
     }
 
     &:hover {
-      padding: 0 20px;
+      padding: 0 40px;
 
       .section-icon {
         filter: drop-shadow(2px 2px 0px $green);

@@ -12,5 +12,18 @@
 
   span{
     margin-right: 100px;
+
+    img {
+      cursor: pointer;
+      width: 25px;
+      height: 25px;
+      line-height: 25px;
+      vertical-align: middle;
+      filter: brightness(0.5);
+
+      &:hover {
+        filter: drop-shadow(0 0 5px $highlight-color);
+      }
+    }
   }
 }
