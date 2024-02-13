@@ -15,244 +15,244 @@ a:hover {
   color: #1e1d1d;
 }
 .code-particle:nth-child(1) {
-  width: 86px;
+  width: 84px;
   background-color: rgb(42, 41, 41);
-  left: calc(50% - 23px);
-  animation-delay: 2333ms;
+  left: calc(50% - 205px);
+  animation-delay: 9869ms;
 }
 .code-particle:nth-child(1).top {
-  top: calc(20% - 137px);
+  top: calc(20% - 308px);
 }
 .code-particle:nth-child(1).bottom {
-  top: calc(100% - 245px);
+  top: calc(100% - 107px);
 }
 .code-particle:nth-child(2) {
-  width: 137px;
+  width: 92px;
   background-color: rgb(42, 41, 41);
-  left: calc(50% - 305px);
-  animation-delay: 6501ms;
+  left: calc(50% - 257px);
+  animation-delay: 1736ms;
 }
 .code-particle:nth-child(2).top {
-  top: calc(20% - 348px);
+  top: calc(20% - 204px);
 }
 .code-particle:nth-child(2).bottom {
-  top: calc(100% - 131px);
+  top: calc(100% - 143px);
 }
 .code-particle:nth-child(3) {
-  width: 93px;
+  width: 128px;
   background-color: rgb(42, 41, 41);
-  left: calc(50% - 179px);
-  animation-delay: 5617ms;
+  left: calc(50% - 159px);
+  animation-delay: 2017ms;
 }
 .code-particle:nth-child(3).top {
-  top: calc(20% - 372px);
+  top: calc(20% - 216px);
 }
 .code-particle:nth-child(3).bottom {
-  top: calc(100% - 292px);
+  top: calc(100% - 105px);
 }
 .code-particle:nth-child(4) {
-  width: 73px;
+  width: 61px;
   background-color: rgb(42, 41, 41);
-  left: calc(50% - 225px);
-  animation-delay: 6270ms;
+  left: calc(50% - 28px);
+  animation-delay: 1934ms;
 }
 .code-particle:nth-child(4).top {
-  top: calc(20% - 386px);
+  top: calc(20% - 247px);
 }
 .code-particle:nth-child(4).bottom {
-  top: calc(100% - 32px);
+  top: calc(100% - 235px);
 }
 .code-particle:nth-child(5) {
-  width: 78px;
+  width: 133px;
   background-color: rgb(42, 41, 41);
-  left: calc(50% - 27px);
-  animation-delay: 6243ms;
+  left: calc(50% - 182px);
+  animation-delay: 9929ms;
 }
 .code-particle:nth-child(5).top {
-  top: calc(20% - 163px);
+  top: calc(20% - 370px);
 }
 .code-particle:nth-child(5).bottom {
-  top: calc(100% - 77px);
+  top: calc(100% - 125px);
 }
 .code-particle:nth-child(6) {
-  width: 69px;
+  width: 128px;
   background-color: rgb(42, 41, 41);
-  left: calc(50% - 238px);
-  animation-delay: 9310ms;
+  left: calc(50% - 281px);
+  animation-delay: 4162ms;
 }
 .code-particle:nth-child(6).top {
-  top: calc(20% - 275px);
+  top: calc(20% - 47px);
 }
 .code-particle:nth-child(6).bottom {
-  top: calc(100% - 269px);
+  top: calc(100% - 294px);
 }
 .code-particle:nth-child(7) {
-  width: 113px;
+  width: 95px;
   background-color: rgb(42, 41, 41);
-  left: calc(50% - 97px);
-  animation-delay: 4654ms;
+  left: calc(50% - 143px);
+  animation-delay: 8285ms;
 }
 .code-particle:nth-child(7).top {
-  top: calc(20% - 113px);
+  top: calc(20% - 163px);
 }
 .code-particle:nth-child(7).bottom {
-  top: calc(100% - 98px);
+  top: calc(100% - -2px);
 }
 .code-particle:nth-child(8) {
-  width: 115px;
+  width: 97px;
   background-color: rgb(42, 41, 41);
-  left: calc(50% - 176px);
-  animation-delay: 3892ms;
+  left: calc(50% - 307px);
+  animation-delay: 2010ms;
 }
 .code-particle:nth-child(8).top {
-  top: calc(20% - 355px);
+  top: calc(20% - 212px);
 }
 .code-particle:nth-child(8).bottom {
-  top: calc(100% - 34px);
+  top: calc(100% - 94px);
 }
 .code-particle:nth-child(9) {
-  width: 101px;
+  width: 85px;
   background-color: rgb(42, 41, 41);
-  left: calc(50% - 188px);
-  animation-delay: 6556ms;
+  left: calc(50% - 222px);
+  animation-delay: 5416ms;
 }
 .code-particle:nth-child(9).top {
-  top: calc(20% - 14px);
+  top: calc(20% - 274px);
 }
 .code-particle:nth-child(9).bottom {
-  top: calc(100% - 63px);
+  top: calc(100% - 117px);
 }
 .code-particle:nth-child(10) {
   width: 104px;
   background-color: rgb(42, 41, 41);
-  left: calc(50% - 266px);
-  animation-delay: 7196ms;
+  left: calc(50% - 210px);
+  animation-delay: 3741ms;
 }
 .code-particle:nth-child(10).top {
-  top: calc(20% - 217px);
+  top: calc(20% - 126px);
 }
 .code-particle:nth-child(10).bottom {
-  top: calc(100% - 130px);
+  top: calc(100% - 131px);
 }
 .code-particle:nth-child(11) {
-  width: 70px;
-  background-color: rgb(42, 41, 41);
-  left: calc(50% - 210px);
-  animation-delay: 5829ms;
-}
-.code-particle:nth-child(11).top {
-  top: calc(20% - 118px);
-}
-.code-particle:nth-child(11).bottom {
-  top: calc(100% - 115px);
-}
-.code-particle:nth-child(12) {
-  width: 75px;
-  background-color: rgb(42, 41, 41);
-  left: calc(50% - 47px);
-  animation-delay: 1910ms;
-}
-.code-particle:nth-child(12).top {
-  top: calc(20% - 173px);
-}
-.code-particle:nth-child(12).bottom {
-  top: calc(100% - 192px);
-}
-.code-particle:nth-child(13) {
-  width: 54px;
-  background-color: rgb(42, 41, 41);
-  left: calc(50% - 320px);
-  animation-delay: 1366ms;
-}
-.code-particle:nth-child(13).top {
-  top: calc(20% - 297px);
-}
-.code-particle:nth-child(13).bottom {
-  top: calc(100% - 35px);
-}
-.code-particle:nth-child(14) {
-  width: 137px;
+  width: 61px;
   background-color: rgb(42, 41, 41);
   left: calc(50% - 297px);
-  animation-delay: 4985ms;
+  animation-delay: 1759ms;
 }
-.code-particle:nth-child(14).top {
-  top: calc(20% - 251px);
+.code-particle:nth-child(11).top {
+  top: calc(20% - 145px);
 }
-.code-particle:nth-child(14).bottom {
-  top: calc(100% - 27px);
+.code-particle:nth-child(11).bottom {
+  top: calc(100% - 65px);
 }
-.code-particle:nth-child(15) {
-  width: 71px;
+.code-particle:nth-child(12) {
+  width: 111px;
   background-color: rgb(42, 41, 41);
-  left: calc(50% - 224px);
-  animation-delay: 6403ms;
+  left: calc(50% - 149px);
+  animation-delay: 1896ms;
 }
-.code-particle:nth-child(15).top {
-  top: calc(20% - 57px);
+.code-particle:nth-child(12).top {
+  top: calc(20% - 157px);
 }
-.code-particle:nth-child(15).bottom {
-  top: calc(100% - 88px);
+.code-particle:nth-child(12).bottom {
+  top: calc(100% - 147px);
 }
-.code-particle:nth-child(16) {
-  width: 77px;
+.code-particle:nth-child(13) {
+  width: 133px;
   background-color: rgb(42, 41, 41);
   left: calc(50% - 303px);
-  animation-delay: 4969ms;
+  animation-delay: 5594ms;
+}
+.code-particle:nth-child(13).top {
+  top: calc(20% - 239px);
+}
+.code-particle:nth-child(13).bottom {
+  top: calc(100% - 258px);
+}
+.code-particle:nth-child(14) {
+  width: 134px;
+  background-color: rgb(42, 41, 41);
+  left: calc(50% - 221px);
+  animation-delay: 9177ms;
+}
+.code-particle:nth-child(14).top {
+  top: calc(20% - 37px);
+}
+.code-particle:nth-child(14).bottom {
+  top: calc(100% - 77px);
+}
+.code-particle:nth-child(15) {
+  width: 79px;
+  background-color: rgb(42, 41, 41);
+  left: calc(50% - 213px);
+  animation-delay: 7915ms;
+}
+.code-particle:nth-child(15).top {
+  top: calc(20% - 258px);
+}
+.code-particle:nth-child(15).bottom {
+  top: calc(100% - 162px);
+}
+.code-particle:nth-child(16) {
+  width: 60px;
+  background-color: rgb(42, 41, 41);
+  left: calc(50% - 48px);
+  animation-delay: 6256ms;
 }
 .code-particle:nth-child(16).top {
-  top: calc(20% - 240px);
+  top: calc(20% - 152px);
 }
 .code-particle:nth-child(16).bottom {
-  top: calc(100% - -2px);
+  top: calc(100% - 5px);
 }
 .code-particle:nth-child(17) {
-  width: 122px;
+  width: 78px;
   background-color: rgb(42, 41, 41);
-  left: calc(50% - 320px);
-  animation-delay: 6143ms;
+  left: calc(50% - 146px);
+  animation-delay: 9913ms;
 }
 .code-particle:nth-child(17).top {
-  top: calc(20% - 43px);
+  top: calc(20% - 382px);
 }
 .code-particle:nth-child(17).bottom {
-  top: calc(100% - 161px);
+  top: calc(100% - 175px);
 }
 .code-particle:nth-child(18) {
-  width: 52px;
+  width: 94px;
   background-color: rgb(42, 41, 41);
-  left: calc(50% - 53px);
-  animation-delay: 8600ms;
+  left: calc(50% - 292px);
+  animation-delay: 3457ms;
 }
 .code-particle:nth-child(18).top {
-  top: calc(20% - 203px);
+  top: calc(20% - 176px);
 }
 .code-particle:nth-child(18).bottom {
-  top: calc(100% - 128px);
+  top: calc(100% - 82px);
 }
 .code-particle:nth-child(19) {
-  width: 110px;
+  width: 60px;
   background-color: rgb(42, 41, 41);
-  left: calc(50% - 95px);
-  animation-delay: 7808ms;
+  left: calc(50% - 33px);
+  animation-delay: 3878ms;
 }
 .code-particle:nth-child(19).top {
-  top: calc(20% - 167px);
+  top: calc(20% - 20px);
 }
 .code-particle:nth-child(19).bottom {
-  top: calc(100% - 121px);
+  top: calc(100% - 177px);
 }
 .code-particle:nth-child(20) {
-  width: 105px;
+  width: 91px;
   background-color: rgb(42, 41, 41);
-  left: calc(50% - 97px);
-  animation-delay: 4459ms;
+  left: calc(50% - 53px);
+  animation-delay: 9113ms;
 }
 .code-particle:nth-child(20).top {
-  top: calc(20% - 19px);
+  top: calc(20% - 60px);
 }
 .code-particle:nth-child(20).bottom {
-  top: calc(100% - 288px);
+  top: calc(100% - 236px);
 }
 
 @keyframes moveRight {
@@ -271,13 +271,13 @@ a:hover {
     opacity: 0.1;
   }
   20% {
-    opacity: 1;
+    opacity: 1.8;
   }
   50% {
     opacity: 0;
   }
   80% {
-    opacity: 0.4;
+    opacity: 0.9;
   }
   100% {
     opacity: 0.1;

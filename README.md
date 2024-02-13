@@ -4,7 +4,7 @@ This HTML template is designed with a coding theme, for developers or tech enthu
 
 ### Preview
 
-### Dsktop
+### Desktop
 <img src="public/assets/preview.jpeg" alt="drawing" width="700"/>
 
 ### Mobile

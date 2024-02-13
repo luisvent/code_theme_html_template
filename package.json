@@ -8,7 +8,7 @@
     "compile:sass": "sass ./public/assets/main.scss ./public/assets/styles.css -w"
   },
   "author": "Luis Ventura",
-  "license": "MIT",
+  "license": "CC BY",
   "dependencies": {},
   "devDependencies": {
     "sass": "^1.70.0"
