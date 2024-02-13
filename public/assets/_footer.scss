@@ -8,22 +8,24 @@
   column-gap: 10px;
   align-items: center;
   color: $primary-color;
-  font-size: 14px;
+  font-size: 1rem;
 
   span{
     margin-right: 100px;
 
-    img {
+    a i {
+    color: white !important;
+      font-size: 2rem;
       cursor: pointer;
-      width: 25px;
-      height: 25px;
-      line-height: 25px;
       vertical-align: middle;
+      padding: 0 2px;
+
       filter: brightness(0.5);
 
       &:hover {
         filter: drop-shadow(0 0 5px $highlight-color);
       }
     }
+
   }
 }

@@ -21,11 +21,12 @@
     column-gap: 20px;
 
     .section-icon {
-      font-size: 48px;
+      font-size: 3rem;
     }
 
     .section-title {
-      font-size: 24px;
+      font-size: 2rem;
+      line-height: 5rem;
 
       a {
         color: $primary_color;
@@ -38,8 +39,6 @@
       //background-color: #302c32;
 
       text-transform: uppercase;
-      color: $highlight-color;
-        text-shadow: $highlight-color 1px 0 10px;
 
       .section-title {
         font-weight: bold;
@@ -48,23 +47,32 @@
           color: $highlight-color;
           font-weight: bold;
           content: '[';
-          font-size: 38px;
+          font-size: 3rem;
           line-height: 38px;
+          text-shadow: $highlight-color -3px 0px 0px;
         }
 
         &::after {
           line-height: 38px;
-          font-size: 38px;
+          font-size: 3rem;
           color: $highlight-color;
           font-weight: bold;
           content: ']';
+          text-shadow: $highlight-color 3px 0px 0px;
         }
 
-        //font-weight: bold;
 
         a {
-          //color: $highlight-color;
+          color: $highlight-color;
+          //text-shadow: $highlight-color 1px 0 10px;
         }
+      }
+
+      .section-icon {
+        font-size: 4rem;
+        color: $highlight-color;
+        background-image: none;
+        -webkit-text-fill-color: $highlight-color;
       }
     }
 

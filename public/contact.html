@@ -8,8 +8,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,400;0,700;1,500&display=swap"
           rel="stylesheet">
-    <link rel="stylesheet"
-          href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"/>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
     <link rel="stylesheet" href="/assets/styles.css"/>
     <title>Personal WEB</title>
 </head>
@@ -22,23 +22,26 @@
 
 <div class="gradient"></div>
 
-<div class="container">
+<div class="container ">
     <div class="top-bar">
         <div class="tab">
-            <div class="tab-icon text-gradient two-tone material-symbols-outlined">person</div>
+            <!--            <div class="tab-icon text-gradient two-tone material-symbols-outlined">person</div>-->
+            <i class='tab-icon text-gradient two-tone  bx bx-user'></i>
             <div class="tab-title"><a href="/home.html">about_me</a></div>
         </div>
         <div class="tab">
-            <div class="tab-icon text-gradient two-tone material-symbols-outlined">stacks</div>
+            <!--            <div class="tab-icon text-gradient two-tone material-symbols-outlined">stacks</div>-->
+            <i class='tab-icon text-gradient two-tone  bx bx-layer'></i>
             <div class="tab-title"><a href="/projects.html">projects</a></div>
         </div>
         <div class="tab selected">
-            <div class="tab-icon text-gradient two-tone material-symbols-outlined">alternate_email</div>
+            <!--            <div class="tab-icon text-gradient two-tone material-symbols-outlined">alternate_email</div>-->
+            <i class='tab-icon text-gradient two-tone  bx bx-mail-send'></i>
             <div class="tab-title"><a href="/contact.html">contact</a></div>
         </div>
     </div>
 
-    <div class="center-content">
+    <div class="center-content title-top-m">
         <div class="content">
             <div class="title text-gradient typewriter">
                 CONTACT
@@ -46,94 +49,99 @@
 
             <h4>Have a question, suggestion, or just want to say hello? Feel free to reach out using the form below</h4>
 
-            <div class="json-container">
-                <div class="open-bracket bracket"></div>
-                <div class="properties-container">
+            <div class="list">
+                <div class="json-container">
+                    <div class="open-bracket bracket"></div>
+                    <div class="properties-container">
 
-                    <div class="pair-container">
-                        <div class="keys-container">
-                            "your_name":
-                        </div>
-                        <div class="values-container">
+                        <div class="pair-container">
+                            <div class="keys-container">
+                                "your_name":
+                            </div>
+                            <div class="values-container">
 
-                            <div class="field">
-                                <input />
+                                <div class="field">
+                                    <input />
+                                </div>
                             </div>
                         </div>
-                    </div>
 
-                    <div class="pair-container">
-                        <div class="keys-container">
-                            "message":
-                        </div>
-                        <div class="values-container">
-                            <div class="field">
-                                <textarea rows="10"> </textarea>
+                        <div class="pair-container">
+                            <div class="keys-container">
+                                "message":
+                            </div>
+                            <div class="values-container">
+                                <div class="field">
+                                    <textarea rows="10"> </textarea>
+                                </div>
                             </div>
                         </div>
+
                     </div>
-
-                </div>
-                <div class="json-container-footer">
-                    <button type="button">Send</button>
-                </div>
-                <div class="close-bracket bracket"></div>
-            </div>
-
-
-            <div class="json-container compact">
-                <div class="open-bracket bracket"></div>
-                <div class="properties-container">
-
-                    <div class="pair-container">
-                        <div class="keys-container">
-                            "github":
-                        </div>
-                        <div class="values-container">
-                            <a class="text-gradient two-tone" href="https://github.com/luisvent">https://github.com/john_doe</a>
-                        </div>
+                    <div class="json-container-footer">
+                        <button type="button">Send</button>
                     </div>
-
-                    <div class="pair-container">
-                        <div class="keys-container">
-                            "linkedin":
-                        </div>
-                        <div class="values-container">
-                            <a class="text-gradient two-tone" href="https://www.linkedin.com/in/luisvent/">https://www.linkedin.com/in/john_doe/</a>
-                        </div>
-                    </div>
-
+                    <div class="close-bracket bracket"></div>
                 </div>
-                <div class="close-bracket bracket"></div>
+
+                <div class="json-container compact">
+                    <div class="open-bracket bracket"></div>
+                    <div class="properties-container">
+
+                        <div class="pair-container">
+                            <div class="keys-container">
+                                "github":
+                            </div>
+                            <div class="values-container">
+                                <a class="text-gradient two-tone" href="https://github.com/luisvent">https://github.com/john_doe</a>
+                            </div>
+                        </div>
+
+                        <div class="pair-container">
+                            <div class="keys-container">
+                                "linkedin":
+                            </div>
+                            <div class="values-container">
+                                <a class="text-gradient two-tone" href="https://www.linkedin.com/in/luisvent/">https://www.linkedin.com/in/john_doe/</a>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="close-bracket bracket"></div>
+                </div>
             </div>
         </div>
 
         <div class="right-sidebar">
 
-            <div class="section ">
-                <div class="section-icon text-gradient two-tone material-symbols-outlined">person</div>
+            <div class="section">
+                <i class='section-icon text-gradient two-tone bx bx-user'></i>
+                <!--                <div class="section-icon text-gradient two-tone material-symbols-outlined">person</div>-->
                 <div class="section-title"><a href="/home.html">about_me</a></div>
             </div>
 
             <div class="section">
-                <div class="section-icon text-gradient two-tone material-symbols-outlined">stacks</div>
+                <i class='section-icon text-gradient two-tone bx bx-layer'></i>
+                <!--                <div class="section-icon text-gradient two-tone material-symbols-outlined">stacks</div>-->
                 <div class="section-title"><div class="section-title"><a href="/projects.html">projects</a></div></div>
             </div>
 
             <div class="section selected">
-                <div class="section-icon text-gradient two-tone material-symbols-outlined">alternate_email</div>
-                <div class="section-title" data-text="contact">contact</div>
+                <i class='section-icon text-gradient two-tone bx bx-mail-send'></i>
+                <!--                <div class="section-icon text-gradient two-tone material-symbols-outlined">alternate_email</div>-->
+                <div class="section-title"><a href="/contact.html">contact</a></div>
             </div>
 
         </div>
     </div>
 
 
-    <div class="footer"><span>Copyright © 2024 John Doe | Get this template free on <a class="text-gradient two-tone"
-                                                                                       href="https://github.com/luisvent/code_theme_html_template">GitHub</a> |
-        <a src="github.com" ><img src="assets/github-icon.png" /></a>
-        <a src="linkedin.com" ><img src="assets/linkedin-icon.png" /></a>
-    </span>
+    <div class="footer">
+        <span>Copyright © 2024 John Doe | Get this template free on <a class="text-gradient two-tone"
+                                                                       href="https://github.com/luisvent/code_theme_html_template">GitHub</a> |
+            <a src="github.com" ><i class="devicon-github-plain colored"></i></a>
+            <a src="linkedin.com" ><i class="devicon-linkedin-plain colored"></i></a>
+        </span>
     </div>
 
 </div>

@@ -3,15 +3,15 @@
 /*-------- json --------*/
 
 .json-container {
-  margin: 20px;
+  margin: 10px 20px;
   padding: 10px;
   color: $primary-color;
-  font-size: 18px;
+  font-size: 1.5rem;
   position: relative;
 
   .bracket {
     font-weight: bold;
-    font-size: 32px;
+    font-size: 2rem;
     color: #b485d0;
 
     &.open-bracket {
@@ -50,7 +50,7 @@
   .properties-container {
     display: flex;
     flex-direction: column;
-    row-gap: 30px;
+    row-gap: 25px;
 
     .pair-container {
       display: flex;
@@ -120,6 +120,22 @@
             box-shadow: 5px 5px 0 $green;
           }
         }
+
+        .array {
+          line-height: 2.5rem;
+
+          &::before {
+            color: $accent-color;
+            content: '[';
+            font-size: 1.7rem;
+          }
+
+          &::after {
+            color: $accent-color;
+            content: ']';
+            font-size: 1.7rem;
+          }
+        }
       }
     }
   }
@@ -136,7 +152,7 @@
     }
 
     .keys-container {
-      text-shadow: $accent-color 1px 0 10px;
+      //text-shadow: $accent-color 1px 0 10px;
     }
   }
 }

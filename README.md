@@ -46,8 +46,9 @@ This HTML template is designed with a coding theme, for developers or tech enthu
 ### Credits
 
 - Fonts: Source Code Pro, Material Symbols Outlined
-- Icons: Material Design Icons
+- Icons: Box icons
 - BG Animation: Wil van der Tuin
+- Tech icons: devicon.dev
 
 ### License
 

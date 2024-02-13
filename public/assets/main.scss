@@ -13,13 +13,16 @@
 @import "code_bg";
 @import "responsive";
 
+.title-top-m {
+  margin-top: 50px;
+}
 
 .list {
   display: flex;
   flex-direction: column;
   align-items: center;
-  row-gap: 20px;
-  height: 800px;
+  row-gap: 0px;
+  height: calc(100vh - 210px);
   overflow: auto;
 }
 
@@ -29,6 +32,14 @@
   &:before {
     content: '/* ---------------------------- separator ---------------------------- */';
   }
+}
+
+.tech-icon {
+  font-size: 2.8rem;
+  margin: 0 8px;
+  vertical-align: middle;
+  line-height: 1rem;
+  color: $primary-color !important;
 }
 
 .container {
@@ -41,7 +52,7 @@
   z-index: 1;
 
   .center-content {
-    margin-top: 6%;
+    //margin-top: 6%;
     display: flex;
 
     .content {
@@ -54,8 +65,8 @@
 
   .title {
     font-weight: bold;
-    font-size: 72px;
-    margin-bottom: 50px;
+    font-size: 5rem;
+    margin-bottom: 30px;
     position: relative;
   }
 
