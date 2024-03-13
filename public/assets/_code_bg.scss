@@ -1,6 +1,8 @@
+@import "variables";
+
 .code-bg {
   position: absolute;
-  color: rgba(42, 41, 41, 0.97);
+  color: $neutral-color;
   text-align: justify;
   font-size: 1.2rem;
 }

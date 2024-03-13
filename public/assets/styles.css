@@ -15,244 +15,244 @@ a:hover {
   color: #1e1d1d;
 }
 .code-particle:nth-child(1) {
-  width: 88px;
+  width: 58px;
   background-color: rgb(42, 41, 41);
-  left: calc(50% - 320px);
-  animation-delay: 2293ms;
+  left: calc(50% - 236px);
+  animation-delay: 6184ms;
 }
 .code-particle:nth-child(1).top {
-  top: calc(20% - 88px);
+  top: calc(20% - 208px);
 }
 .code-particle:nth-child(1).bottom {
-  top: calc(100% - 140px);
+  top: calc(100% - 285px);
 }
 .code-particle:nth-child(2) {
-  width: 108px;
+  width: 66px;
   background-color: rgb(42, 41, 41);
-  left: calc(50% - 77px);
-  animation-delay: 7489ms;
+  left: calc(50% - 79px);
+  animation-delay: 4954ms;
 }
 .code-particle:nth-child(2).top {
-  top: calc(20% - 4px);
+  top: calc(20% - 202px);
 }
 .code-particle:nth-child(2).bottom {
-  top: calc(100% - 66px);
+  top: calc(100% - 262px);
 }
 .code-particle:nth-child(3) {
-  width: 119px;
+  width: 121px;
   background-color: rgb(42, 41, 41);
-  left: calc(50% - 190px);
-  animation-delay: 4467ms;
+  left: calc(50% - 199px);
+  animation-delay: 4242ms;
 }
 .code-particle:nth-child(3).top {
-  top: calc(20% - 107px);
+  top: calc(20% - 42px);
 }
 .code-particle:nth-child(3).bottom {
-  top: calc(100% - 121px);
+  top: calc(100% - 278px);
 }
 .code-particle:nth-child(4) {
-  width: 87px;
+  width: 97px;
   background-color: rgb(42, 41, 41);
-  left: calc(50% - 97px);
-  animation-delay: 470ms;
+  left: calc(50% - 275px);
+  animation-delay: 6415ms;
 }
 .code-particle:nth-child(4).top {
-  top: calc(20% - 181px);
+  top: calc(20% - 57px);
 }
 .code-particle:nth-child(4).bottom {
-  top: calc(100% - 279px);
+  top: calc(100% - 189px);
 }
 .code-particle:nth-child(5) {
-  width: 119px;
+  width: 111px;
   background-color: rgb(42, 41, 41);
-  left: calc(50% - 36px);
-  animation-delay: 2212ms;
+  left: calc(50% - 269px);
+  animation-delay: 9236ms;
 }
 .code-particle:nth-child(5).top {
-  top: calc(20% - 168px);
+  top: calc(20% - 321px);
 }
 .code-particle:nth-child(5).bottom {
-  top: calc(100% - 16px);
+  top: calc(100% - 202px);
 }
 .code-particle:nth-child(6) {
   width: 54px;
   background-color: rgb(42, 41, 41);
-  left: calc(50% - 68px);
-  animation-delay: 1149ms;
+  left: calc(50% - 317px);
+  animation-delay: 8315ms;
 }
 .code-particle:nth-child(6).top {
-  top: calc(20% - 386px);
+  top: calc(20% - 327px);
 }
 .code-particle:nth-child(6).bottom {
-  top: calc(100% - 130px);
+  top: calc(100% - 128px);
 }
 .code-particle:nth-child(7) {
-  width: 135px;
+  width: 90px;
   background-color: rgb(42, 41, 41);
-  left: calc(50% - 92px);
-  animation-delay: 9008ms;
+  left: calc(50% - 32px);
+  animation-delay: 3918ms;
 }
 .code-particle:nth-child(7).top {
-  top: calc(20% - 176px);
+  top: calc(20% - 248px);
 }
 .code-particle:nth-child(7).bottom {
-  top: calc(100% - 251px);
+  top: calc(100% - 197px);
 }
 .code-particle:nth-child(8) {
-  width: 85px;
+  width: 75px;
   background-color: rgb(42, 41, 41);
-  left: calc(50% - 169px);
-  animation-delay: 4592ms;
+  left: calc(50% - 102px);
+  animation-delay: 8158ms;
 }
 .code-particle:nth-child(8).top {
-  top: calc(20% - 231px);
+  top: calc(20% - 119px);
 }
 .code-particle:nth-child(8).bottom {
-  top: calc(100% - 100px);
+  top: calc(100% - 25px);
 }
 .code-particle:nth-child(9) {
-  width: 123px;
+  width: 80px;
   background-color: rgb(42, 41, 41);
-  left: calc(50% - 57px);
-  animation-delay: 9598ms;
+  left: calc(50% - 166px);
+  animation-delay: 1552ms;
 }
 .code-particle:nth-child(9).top {
-  top: calc(20% - 8px);
+  top: calc(20% - 308px);
 }
 .code-particle:nth-child(9).bottom {
-  top: calc(100% - 109px);
+  top: calc(100% - 230px);
 }
 .code-particle:nth-child(10) {
-  width: 139px;
+  width: 91px;
   background-color: rgb(42, 41, 41);
-  left: calc(50% - 238px);
-  animation-delay: 2471ms;
+  left: calc(50% - 130px);
+  animation-delay: 5599ms;
 }
 .code-particle:nth-child(10).top {
-  top: calc(20% - 60px);
+  top: calc(20% - 133px);
 }
 .code-particle:nth-child(10).bottom {
-  top: calc(100% - 60px);
+  top: calc(100% - 197px);
 }
 .code-particle:nth-child(11) {
-  width: 90px;
+  width: 61px;
   background-color: rgb(42, 41, 41);
-  left: calc(50% - 271px);
-  animation-delay: 4894ms;
+  left: calc(50% - 99px);
+  animation-delay: 4299ms;
 }
 .code-particle:nth-child(11).top {
-  top: calc(20% - 57px);
+  top: calc(20% - 201px);
 }
 .code-particle:nth-child(11).bottom {
-  top: calc(100% - 131px);
+  top: calc(100% - 115px);
 }
 .code-particle:nth-child(12) {
-  width: 90px;
+  width: 104px;
   background-color: rgb(42, 41, 41);
-  left: calc(50% - 258px);
-  animation-delay: 2777ms;
+  left: calc(50% - 279px);
+  animation-delay: 6200ms;
 }
 .code-particle:nth-child(12).top {
-  top: calc(20% - 345px);
+  top: calc(20% - 256px);
 }
 .code-particle:nth-child(12).bottom {
-  top: calc(100% - 252px);
+  top: calc(100% - 184px);
 }
 .code-particle:nth-child(13) {
-  width: 137px;
+  width: 59px;
   background-color: rgb(42, 41, 41);
-  left: calc(50% - 174px);
-  animation-delay: 4176ms;
+  left: calc(50% - 73px);
+  animation-delay: 8551ms;
 }
 .code-particle:nth-child(13).top {
-  top: calc(20% - 290px);
+  top: calc(20% - 266px);
 }
 .code-particle:nth-child(13).bottom {
-  top: calc(100% - 191px);
+  top: calc(100% - 36px);
 }
 .code-particle:nth-child(14) {
-  width: 67px;
+  width: 52px;
   background-color: rgb(42, 41, 41);
-  left: calc(50% - 253px);
-  animation-delay: 1951ms;
+  left: calc(50% - 223px);
+  animation-delay: 7494ms;
 }
 .code-particle:nth-child(14).top {
-  top: calc(20% - 376px);
+  top: calc(20% - 72px);
 }
 .code-particle:nth-child(14).bottom {
-  top: calc(100% - 263px);
+  top: calc(100% - 200px);
 }
 .code-particle:nth-child(15) {
-  width: 59px;
+  width: 106px;
   background-color: rgb(42, 41, 41);
-  left: calc(50% - 29px);
-  animation-delay: 1881ms;
+  left: calc(50% - 256px);
+  animation-delay: 3916ms;
 }
 .code-particle:nth-child(15).top {
-  top: calc(20% - 227px);
+  top: calc(20% - 223px);
 }
 .code-particle:nth-child(15).bottom {
-  top: calc(100% - 190px);
+  top: calc(100% - 148px);
 }
 .code-particle:nth-child(16) {
-  width: 89px;
+  width: 60px;
   background-color: rgb(42, 41, 41);
-  left: calc(50% - 278px);
-  animation-delay: 5729ms;
+  left: calc(50% - 68px);
+  animation-delay: 7745ms;
 }
 .code-particle:nth-child(16).top {
-  top: calc(20% - 373px);
+  top: calc(20% - 212px);
 }
 .code-particle:nth-child(16).bottom {
-  top: calc(100% - 113px);
+  top: calc(100% - 287px);
 }
 .code-particle:nth-child(17) {
-  width: 56px;
+  width: 97px;
   background-color: rgb(42, 41, 41);
-  left: calc(50% - 201px);
-  animation-delay: 3880ms;
+  left: calc(50% - 103px);
+  animation-delay: 6052ms;
 }
 .code-particle:nth-child(17).top {
-  top: calc(20% - 59px);
+  top: calc(20% - 255px);
 }
 .code-particle:nth-child(17).bottom {
-  top: calc(100% - 250px);
+  top: calc(100% - 167px);
 }
 .code-particle:nth-child(18) {
-  width: 117px;
+  width: 76px;
   background-color: rgb(42, 41, 41);
-  left: calc(50% - 65px);
-  animation-delay: 1389ms;
+  left: calc(50% - 84px);
+  animation-delay: 6730ms;
 }
 .code-particle:nth-child(18).top {
-  top: calc(20% - 359px);
+  top: calc(20% - 320px);
 }
 .code-particle:nth-child(18).bottom {
-  top: calc(100% - 180px);
+  top: calc(100% - 100px);
 }
 .code-particle:nth-child(19) {
-  width: 59px;
+  width: 71px;
   background-color: rgb(42, 41, 41);
-  left: calc(50% - 144px);
-  animation-delay: 7025ms;
+  left: calc(50% - 196px);
+  animation-delay: 2225ms;
 }
 .code-particle:nth-child(19).top {
-  top: calc(20% - 331px);
+  top: calc(20% - 311px);
 }
 .code-particle:nth-child(19).bottom {
-  top: calc(100% - 69px);
+  top: calc(100% - 227px);
 }
 .code-particle:nth-child(20) {
-  width: 100px;
+  width: 106px;
   background-color: rgb(42, 41, 41);
-  left: calc(50% - 86px);
-  animation-delay: 6697ms;
+  left: calc(50% - 148px);
+  animation-delay: 7951ms;
 }
 .code-particle:nth-child(20).top {
-  top: calc(20% - 54px);
+  top: calc(20% - 65px);
 }
 .code-particle:nth-child(20).bottom {
-  top: calc(100% - 43px);
+  top: calc(100% - 83px);
 }
 
 @keyframes moveRight {
@@ -271,13 +271,13 @@ a:hover {
     opacity: 0.1;
   }
   20% {
-    opacity: 1.2;
+    opacity: 0.2;
   }
   50% {
     opacity: 0;
   }
   80% {
-    opacity: 0.1;
+    opacity: 0.3;
   }
   100% {
     opacity: 0.1;
@@ -339,7 +339,7 @@ body, html {
   height: 100%;
   background-color: #222;
   font-family: "Source Code Pro", monospace;
-  font-size: 62.5%;
+  font-size: 62.7%;
   /* width */
   /* Track */
   /* Handle */
@@ -779,7 +779,7 @@ button:hover {
 
 .code-bg {
   position: absolute;
-  color: rgba(42, 41, 41, 0.97);
+  color: rgb(42, 41, 41);
   text-align: justify;
   font-size: 1.2rem;
 }
@@ -903,7 +903,7 @@ button:hover {
   }
   .json-container {
     margin-left: 20px !important;
-    font-size: 1rem !important;
+    font-size: 1.4rem !important;
   }
   .json-container .tech-icon {
     font-size: 2rem !important;
@@ -930,6 +930,11 @@ button:hover {
     width: 300px !important;
   }
 }
+@media (min-width: 1500px) {
+  body, html {
+    font-size: 90% !important;
+  }
+}
 .title-top-m {
   margin-top: 50px;
 }
@@ -939,7 +944,7 @@ button:hover {
   flex-direction: column;
   align-items: start;
   row-gap: 0px;
-  height: calc(100vh - 210px);
+  height: calc(100vh - 235px);
   overflow: auto;
 }
 

@@ -152,7 +152,7 @@
 
   .json-container {
     margin-left: 20px !important;
-    font-size: 1rem !important;
+    font-size: 1.4rem !important;
 
     .tech-icon {
       font-size: 2rem !important;
@@ -207,5 +207,12 @@
         }
       }
     }
+  }
+}
+
+@media (min-width: 1500px) {
+
+  body, html {
+    font-size: 90% !important;
   }
 }

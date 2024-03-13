@@ -11,8 +11,6 @@ This HTML template is designed with a coding theme, for developers or tech enthu
 
 <img src="public/assets/preview_mobile.png" alt="drawing" width="300"/>
 
-[Live Demo](https://luisvent.com)
-
 ### Features
 
 - Stylish coding theme design
